@@ -3,11 +3,11 @@ package com.tgt.igniteplus;
 import java.util.HashSet;
 
 public class IgniteMembers {
-     String name;
-     String college;
-     String department;
-     HashSet<String> skillset;
-     int age;
+     private String name;
+     private String college;
+     private String department;
+     private HashSet<String> skillset;
+     private int age;
 
 
     public IgniteMembers(String name,String college,String department, HashSet<String> skillset,int age) {
